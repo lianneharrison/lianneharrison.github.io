@@ -67,6 +67,10 @@ body {
   font-size: 5rem;
   }
 
+#arrow {
+  margin-top: 50px;
+}
+
 @media screen and ( max-width: 28em ) {
   #name { font-size: 4rem; }
 }
@@ -171,4 +175,41 @@ body {
 @media screen and ( max-width: 28em ) {
   #project { font-size: 1rem; }
   #project { width: 80%; }
+}
+
+/* floating animation */
+
+.floating{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 1.5s; 
+  -webkit-animation-duration: 1.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0%);  
+  }
+  50% {
+    transform: translateY(8%);  
+  } 
+  100% {
+    transform: translateY(0%);
+  }     
+}
+
+@-webkit-keyframes floating {
+  0% {
+    -webkit-transform: translateY(0%);  
+  }
+  50% {
+    -webkit-transform: translateY(8%);  
+  } 
+  100% {
+    -webkit-transform: translateY(0%);
+  }     
 }
