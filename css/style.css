@@ -319,7 +319,7 @@ body {
 #social-media {
   display: flex;
   justify-content: space-between;
-  max-width: 220px;
+  max-width: 300px;
   width: 100%;
   margin-top: 2em;
 }
@@ -327,6 +327,11 @@ body {
 .icon {
   height: 40px;
   width: 40px;
+}
+
+#resume {
+  font-size: 2.5em;
+  color: #1d1d1d;
 }
 
 /* Contact Information */
