@@ -4,12 +4,10 @@
 <head>
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <!-- Normalize -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
   <!-- Materialize -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
   <!-- Favicon -->
-  <link rel="shortcut icon" href="images/LH_logo_p.png" />
+  <link rel="shortcut icon" href="images/LH_logo_p.png">
   <!-- Google Font -->
   <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet' type='text/css'>
   <!-- Font Awesome -->
@@ -20,11 +18,15 @@
 
 <body>
 
-  <div id="title">
-    <img id="logo" src="images/LH_logo_green.png">
-    <p id="name">LIANNE HARRISON</p>
-    <p id="tag">WEB DEVELOPER</p>
-    <i id="arrow" class="fa fa-arrow-down floating" aria-hidden="true"></i>
+  <div id="particles-js">
+
+    <div id="title">
+      <img id="logo" src="images/LH_logo_green.png">
+      <p id="name">LIANNE HARRISON</p>
+      <p id="tag">WEB DEVELOPER</p>
+      <i id="arrow" class="fa fa-arrow-down floating" aria-hidden="true"></i>
+    </div>
+
   </div>
 
   <div id="content">
@@ -116,11 +118,16 @@
 
 
   <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
   <!-- Custom JS -->
-  <script src="js/animation.js"></script>
+  <script type="text/javascript" src="js/animation.js"></script>
+  <!-- Particles JS -->
+  <script type="text/javascript" src="node_modules/particles.js/particles.js"></script>
+  <script type="text/javascript" src="node_modules/particles.js/demo/js/app.js"></script>
+  <!-- Normalize -->
+  <script type="text/javascript" href="node_modules/lib/normalize.js"></script>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
